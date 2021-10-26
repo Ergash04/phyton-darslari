@@ -1,0 +1,58 @@
+body {
+    background: linear-gradient(to right, #12151d, #4ea1d2);
+}
+
+.block {
+    width: 500px;
+    height: 400px;
+    background: url(spring.jpg);
+    margin-top: 4 0px;
+    animation-name: spin;
+    animation-duration: 15s;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(.04, .98, .91, -0.03);
+    opacity: 1;
+    box-shadow: 0 0 31px 9px #dc3f3f;
+}
+
+.block:hover {
+    opacity: 0.8;
+    filter: grayscale(50%);
+}
+
+.box {
+    width: 400px;
+    height: 400px;
+    position: relative;
+}
+
+img {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    animation-name: anim;
+    animation-duration: 5s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes anim {
+    from {
+        transform: translateX(-3 00px);
+    }
+    to {
+        transform: translateX(1900px);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(500px);
+    }
+}

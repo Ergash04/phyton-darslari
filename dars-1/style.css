@@ -1,0 +1,14 @@
+body {
+    background: aquamarine;
+}
+
+img {
+    max-width: 500px;
+    width: 100%;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+img:hover {
+    transform: rotateX(90deg);
+}
