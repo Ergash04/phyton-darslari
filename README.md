@@ -1,1 +1,3 @@
-# phyton-darslari Ushbu joyda yangi o`rganayotgan phyton darslari mavjud
+# phyton-darslari 
+
+ushbu joyda payton darslari mavjud
