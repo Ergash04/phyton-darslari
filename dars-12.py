@@ -17,4 +17,8 @@ print(f"{talaba['ism'].title()},\
           {talaba['yosh']} yoshda")
  # bu buyruq orqali lug'atga o'zgartirish kiritish mumkin         
 talaba['kurs'] = 4
-talaba['fakultet'] = 'informatika'          
+talaba['fakultet'] = 'informatika'  
+        
+
+avto = {}
+
